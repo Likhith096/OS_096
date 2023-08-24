@@ -1,5 +1,4 @@
 //C program for producer and consumer using semaphores
-
 #include <stdio.h>
 #include <pthread.h>
 #include <semaphore.h>

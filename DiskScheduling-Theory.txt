@@ -1,0 +1,29 @@
+1.There can be Multiple Platters per Disk
+2.Each Platter has 2 surface (Up and down) on which it can store data
+3.A spindle is used to rotate the Platters
+4.A read - write head is used for each platter.
+
+5.Each Platter has many tracks (Concentric circles)
+6.The time needed for the R/W head to go to intended track is called SEEK TIME.
+
+7.Each Track consists of many sectors (In circular format).
+8.Sector is the smallest unit in disk , where the data is stored.
+
+9.R/W head can only move linearly (front and back) , so go to an intended sectors
+  First it goes to needed track and then spindle turns to needed sector.
+
+10.The time for platter to rotate for needed sector is ROTATE LATENCY.
+
+11.After getting the intended sector, we can do data transfer -> time - TRANSFER TIME
+
+12.Total Seek Time = Total head Movement * Seek Time
+
+13.Disk Access Time = Seek Time + Rotational Latency + Transfer Time
+
+14.Disk Response Time = Disk Access Time + Time in Queueing/Disk delay
+
+Disk Scheduling Algorithms:-
+
+
+
+
