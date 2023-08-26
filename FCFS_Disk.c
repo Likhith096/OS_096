@@ -18,6 +18,6 @@ int main()
         curr = R[i];
     }
     
-    printf("Total head moment is %d", totHeadMovement);
+    printf("Total head movement is %d", totHeadMovement);
     return 0;
 }
